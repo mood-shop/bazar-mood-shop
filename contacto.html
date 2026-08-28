@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Shop — Contacto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/contacto.css">
+</head>
+
+<body>
+  <!-- ============ ICON SPRITE ============ -->
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <symbol id="ico-whatsapp" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1112 20zm4.4-5.9c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.6.1s-.6.8-.8 1c-.1.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.6-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.2-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.9-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-1 .9-1 2.3s1 2.6 1.1 2.8c.1.2 2 3.1 4.9 4.2.7.3 1.2.4 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z" />
+      </symbol>
+      <symbol id="ico-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <line x1="5" y1="5" x2="19" y2="19" />
+        <line x1="19" y1="5" x2="5" y2="19" />
+      </symbol>
+      <symbol id="ico-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="5" y1="12" x2="19" y2="12" />
+        <polyline points="13 6 19 12 13 18" />
+      </symbol>
+      <!-- Facebook -->
+      <symbol id="ico-facebook" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M14 8.5h-1.5c-.9 0-1.5.6-1.5 1.5v2h3l-.4 2.5H11V21" />
+      </symbol>
+      <!-- Instagram -->
+      <symbol id="ico-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <rect x="3.5" y="3.5" width="17" height="17" rx="5" />
+        <circle cx="12" cy="12" r="4" />
+        <circle cx="16.7" cy="7.3" r="0.6" fill="currentColor" stroke="none" />
+      </symbol>
+      <!-- TikTok -->
+      <symbol id="ico-tiktok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M14 3v10.5a3.2 3.2 0 11-2.3-3.1" />
+        <path d="M14 3c.3 2 1.8 3.5 3.8 3.8" />
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./index.html" class="brand">
+        <img class="brand-mark" src="./images/Logotipo - letras.png" alt="Logo de Mood Shop" />
+        <span class="brand-text">
+          <span class="brand-name">MOOD SHOP</span>
+          <span class="brand-tag">Productos para cada <em>mood</em>.</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="./index.html">Inicio</a>
+        <a href="./catalogo-mood-shop.html">Catálogo</a>
+        <a href="./contacto.html" class="active">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn-whatsapp" href="https://wa.link/bdqm1g" id="whatsappBtn" target="_blank">
+          <svg>
+            <use href="#ico-whatsapp" />
+          </svg>
+          <span>Escríbenos</span>
+        </a>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menú" aria-expanded="false"
+          aria-controls="mobileNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE NAV DRAWER ============ -->
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-panel">
+      <div class="mobile-nav-head">
+        <span class="brand-name">MENÚ</span>
+        <button class="mobile-nav-close" id="mobileNavClose" aria-label="Cerrar menú">
+          <svg>
+            <use href="#ico-close" />
+          </svg>
+        </button>
+      </div>
+      <nav class="mobile-nav-links" aria-label="Navegación móvil">
+        <a href="./index.html">Inicio</a>
+        <a href="./catalogo-mood-shop.html">Catálogo</a>
+        <a href="./contacto.html" class="active">Contacto</a>
+      </nav>
+      <div class="mobile-nav-cta">
+        <a class="btn-whatsapp" href="https://wa.link/bdqm1g" target="_blank">
+          <svg>
+            <use href="#ico-whatsapp" />
+          </svg>
+          <span>Escríbenos</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ PAGE HEADER ============ -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <p class="page-eyebrow">Mood Shop</p>
+      <h1>Contacto</h1>
+      <p class="page-sub">Síguenos en nuestras redes para conocer lanzamientos, promociones y todo lo nuevo.</p>
+    </div>
+  </section>
+
+  <!-- ============ REDES SOCIALES ============ -->
+  <section class="social-section">
+    <div class="social-grid">
+
+      <a class="social-card" href="https://www.facebook.com/profile.php?id=61590213038207" target="_blank" rel="noopener">
+        <span class="social-icon fb"><svg>
+            <use href="#ico-facebook" />
+          </svg></span>
+        <span class="social-name">Facebook</span>
+        <span class="social-handle">/MoodShop Xalapa</span>
+        <span class="social-cta">Síguenos <svg>
+            <use href="#ico-arrow-right" />
+          </svg></span>
+      </a>
+
+      <a class="social-card" href="https://www.instagram.com/mood.shop.x" target="_blank" rel="noopener">
+        <span class="social-icon ig"><svg>
+            <use href="#ico-instagram" />
+          </svg></span>
+        <span class="social-name">Instagram</span>
+        <span class="social-handle">@mood.shop.x</span>
+        <span class="social-cta">Síguenos <svg>
+            <use href="#ico-arrow-right" />
+          </svg></span>
+      </a>
+
+      <a class="social-card" href="https://www.tiktok.com/@mood.shop.xalapa" target="_blank" rel="noopener">
+        <span class="social-icon tk"><svg>
+            <use href="#ico-tiktok" />
+          </svg></span>
+        <span class="social-name">TikTok</span>
+        <span class="social-handle">@mood.shop.xalapa</span>
+        <span class="social-cta">Síguenos <svg>
+            <use href="#ico-arrow-right" />
+          </svg></span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="brand">
+          <img class="brand-mark" src="./images/Logotipo - letras.png" alt="Logo de Mood Shop" />
+          <span class="brand-text">
+            <span class="brand-name">MOOD SHOP</span>
+            <span class="brand-tag">Productos para cada <em>mood</em>.</span>
+          </span>
+        </a>
+        <p>Una concept store donde cada producto conecta contigo y tu estilo de vida.</p>
+      </div>
+      <div class="footer-col">
+        <h4>NAVEGACIÓN</h4>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./catalogo-mood-shop.html">Catálogo</a></li>
+          <li><a href="./index.html#categorias">Categorías</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>ATENCIÓN</h4>
+        <ul>
+          <li><a href="./404.html">Preguntas frecuentes</a></li>
+          <li><a href="./404.html">Envíos y entregas</a></li>
+          <li><a href="./404.html">Cambios y devoluciones</a></li>
+          <li><a href="./contacto.html">Contáctanos</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>ESCRÍBENOS</h4>
+        <ul>
+          <li><a href="https://wa.link/bdqm1g" target="_blank" rel="noopener">+52 228 111 8405</a></li>
+          <li><a href="mailto:1moodshop1@gmail.com">1moodshop1@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Mood Shop. Todos los derechos reservados.</div>
+  </footer>
+
+  <script src="js/contacto.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,331 @@
+[
+  {
+    "id": "prod-001",
+    "nombre": "Royal Honey Vip",
+    "descripcion": "Miel creada para despertar el deseo sexual y potenciar la sensibilidad en la intimidad. Diseñada para intensificar la complicidad y llevar cada encuentro a una experiencia inolvidable.",
+    "categoria": "Mieles",
+    "precio": 100,
+    "precioTachado": 120,
+    "stock": 3,
+    "imagenes": [
+      "./images/productos/mieles/1-royal.png",
+      "./images/productos/mieles/1.2-royal.jpeg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 90
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 85
+      },
+      {
+        "piezas": 4,
+        "precioUnitario": 80
+      },
+      {
+        "piezas": 5,
+        "precioUnitario": 75
+      }
+    ],
+    "beneficios": [
+      "Aumenta el deseo sexual.",
+      "Mejora la circulación.",
+      "Más energía durante el día.",
+      "Relaciones más placenteras y orgasmos más intensos."
+    ],
+    "instrucciones": "Consumir el contenido completo de 1 sobre aproximadamente 45 minutos antes del encuentro íntimo.",
+    "detalles": {
+      "Marca": "Royal Honey",
+      "Contenido": "1 sobre con 20gr",
+      "Género": "Hombre"
+    },
+    "slug": "royal-honey-vip",
+    "ventaMayoreo": true,
+    "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
+    "destacado": true
+  },
+
+  {
+    "id": "prod-002",
+    "nombre": "Pink PussyCat",
+    "descripcion": "Una miel estimulante diseñada para la mujer, creada para elevar la libido, favorecer la lubricación natural e intensificar la sensibilidad al tacto, transformando cada encuentro en una experiencia vibrante y prolongada.",
+    "categoria": "Mieles",
+    "precio": 100,
+    "precioTachado": 120,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/mieles/2-pink.png",
+      "./images/productos/mieles/2.2-pink.jpeg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 90
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 85
+      },
+      {
+        "piezas": 4,
+        "precioUnitario": 80
+      },
+      {
+        "piezas": 5,
+        "precioUnitario": 75
+      }
+    ],
+    "beneficios": [
+      "Aumenta la libido y el deseo sexual",
+      "Mejora la lubricación natural",
+      "Aumenta el apetito sexual",
+      "Empodera tu lado más sensual",
+      "Orgasmos más potentes y duraderos",
+      "Garantiza una mejor experiencia sexual."
+    ],
+    "instrucciones": "Consumir el contenido completo de 1 sobre aproximadamente 1 hora antes del encuentro íntimo.",
+    "detalles": {
+      "Marca": "Pink Pussy Cat",
+      "Contenido": "1 sobre con 20gr",
+      "Género": "Mujer"
+    },
+    "slug": "pink-pussycat",
+    "ventaMayoreo": true,
+    "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
+    "destacado": true
+  },
+
+  {
+    "id": "prod-003",
+    "nombre": "Black Bull Extreme",
+    "descripcion": "Una de las mieles más exclusivas de nuestra selección premium, formulada para llevar el rendimiento masculino a su nivel más alto. Su mezcla de alta concentración maximiza la firmeza y garantiza una resistencia prolongada.",
+    "categoria": "Mieles",
+    "precio": 130,
+    "precioTachado": 150,
+    "stock": 3,
+    "imagenes": [
+      "./images/productos/mieles/3-bull.png",
+      "./images/productos/mieles/3.2-bull.jpeg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 110
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 100
+      },
+      {
+        "piezas": 4,
+        "precioUnitario": 95
+      },
+      {
+        "piezas": 5,
+        "precioUnitario": 90
+      }
+    ],
+    "beneficios": [
+      "Máximo rendimiento.",
+      "Erecciones más firmes.",
+      "Mayor deseo sexual.",
+      "Experiencia intensa para quienes buscan un extra."
+    ],
+    "instrucciones": "Consumir el contenido completo de 1 sobre aproximadamente 30 minutos antes del encuentro íntimo.",
+    "detalles": {
+      "Marca": "Black Bull",
+      "Contenido": "1 sobre con 22gr",
+      "Género": "Hombre"
+    },
+    "slug": "black-bull-extreme",
+    "ventaMayoreo": true,
+    "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
+    "destacado": false
+  },
+
+  {
+    "id": "prod-004",
+    "nombre": "Rhino Chocolate VIP",
+    "descripcion": "Este chocolate líquido está diseñado para despertar los sentidos, potenciar el rendimiento masculino e intensificar el deseo, convirtiendo el preludio íntimo en un momento irresistible de puro deleite.",
+    "categoria": "Chocolates",
+    "precio": 120,
+    "precioTachado": 140,
+    "stock": 3,
+    "imagenes": [
+      "./images/productos/mieles/4-choco.png",
+      "./images/productos/mieles/4.2-choco.jpeg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 110
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 100
+      },
+      {
+        "piezas": 4,
+        "precioUnitario": 90
+      },
+      {
+        "piezas": 5,
+        "precioUnitario": 80
+      }
+    ],
+    "beneficios": [
+      "El poder de un chocolate premium.",
+      "Mayor rendimiento sexual.",
+      "Más tiempo de acción.",
+      "Incrementa el deseo y la energía.",
+      "Delicioso sabor a chocolate."
+    ],
+    "instrucciones": "Consumir el contenido completo de 1 sobre aproximadamente 45 minutos antes del encuentro íntimo.",
+    "detalles": {
+      "Marca": "Rhino",
+      "Contenido": "1 sobre con 15gr",
+      "Género": "Hombre"
+    },
+    "slug": "rhino-chocolate-vip",
+    "ventaMayoreo": true,
+    "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
+    "destacado": true
+  },
+
+  {
+    "id": "prod-005",
+    "nombre": "Black Horse",
+    "descripcion": "Esta miel vital despierta la energía profunda, favorece la firmeza prolongada y maximiza el rendimiento, asegurando una presencia imponente en cada encuentro.",
+    "categoria": "Mieles",
+    "precio": 100,
+    "precioTachado": 120,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/mieles/5-horse.png",
+      "./images/productos/mieles/5.2-horse.jpeg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 90
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 85
+      },
+      {
+        "piezas": 4,
+        "precioUnitario": 80
+      },
+      {
+        "piezas": 5,
+        "precioUnitario": 75
+      }
+    ],
+    "beneficios": [
+      "Una de las favoritas por su excelente relación calidad-precio.",
+      "Erecciones más firmes y prolongadas.",
+      "Mayor deseo sexual.",
+      "Más energía y mejor rendimiento."
+    ],
+    "instrucciones": "Consumir el contenido completo de 1 sobre aproximadamente 30 minutos antes del encuentro íntimo.",
+    "detalles": {
+      "Marca": "Black Horse",
+      "Contenido": "1 sobre con 10gr",
+      "Género": "Hombre"
+    },
+    "slug": "black-horse",
+    "ventaMayoreo": true,
+    "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
+    "destacado": false
+  },
+
+  {
+    "id": "prod-006",
+    "nombre": "Mónaco con zirconias",
+    "descripcion": "Pulso con clásico tejido cubano e incrustación de microzirconias suizas en cada uno de los eslabones, coronado con broche Mónaco para más seguridad y presencia.",
+    "categoria": "joyeria",
+    "precio": 2950,
+    "precioTachado": 3150,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/joyeria/1-monaco-con-zirconias.png",
+      "./images/productos/joyeria/1.2-monaco-con-zirconias.png",
+      "./images/productos/joyeria/1.3-monaco-con-zirconias.png",
+      "./images/productos/joyeria/1.4-monaco-con-zirconias.png",
+      "./images/productos/joyeria/1.5-monaco-con-zirconias.png"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [],
+    "instrucciones": "",
+    "detalles": {
+      "Material": "Plata de ley .925 con zirconias suizas",
+      "Estuche": "Si",
+      "Medida": "00cm"
+    },
+    "slug": "monaco-con-zirconias",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
+    "destacado": true
+  },
+
+  {
+    "id": "prod-007",
+    "nombre": "Roles mini (8 mm)",
+    "descripcion": "Pulso en tejido clásico Rolex hecho en plata ley .925 con broche de caja/mariposa y logo Rolex de alta calidad también en broche.",
+    "categoria": "joyeria",
+    "precio": 2350,
+    "precioTachado": 2450,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/joyeria/1-rolex-mini.png",
+      "./images/productos/joyeria/1.2-rolex-mini.png",
+      "./images/productos/joyeria/1.3-rolex-mini.png",
+      "./images/productos/joyeria/1.4-rolex-mini.png",
+      "./images/productos/joyeria/1.5-rolex-mini.png"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [],
+    "instrucciones": "",
+    "detalles": {
+      "Material": "Plata de ley .925",
+      "Estuche": "Si",
+      "Medida": "00cm"
+    },
+    "slug": "roles-mini-8-mm",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
+    "destacado": true
+  },
+
+  {
+    "id": "prod-008",
+    "nombre": "Tenis corazón rojo",
+    "descripcion": "Pulso estilo tenis hecho en plata de ley .925 e incrustación de zirconia en forma de corazón rojo al centro.",
+    "categoria": "joyeria",
+    "precio": 1950,
+    "precioTachado": 2100,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/joyeria/1-tenis-corazon.png",
+      "./images/productos/joyeria/1.2-tenis-corazon.png",
+      "./images/productos/joyeria/1.3-tenis-corazon.png",
+      "./images/productos/joyeria/1.4-tenis-corazon.png",
+      "./images/productos/joyeria/1.5-tenis-corazon.png"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [],
+    "instrucciones": "",
+    "detalles": {
+      "Material": "Plata de ley .925",
+      "Estuche": "Si",
+      "Medida": "00cm"
+    },
+    "slug": "tenis-corazon-rojo",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
+    "destacado": true
+  }
+]

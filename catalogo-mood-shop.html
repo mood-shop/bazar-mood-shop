@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Shop — Catálogo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/catalog.css">
+</head>
+
+<body>
+  <!-- ============ ICON SPRITE ============ -->
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <symbol id="ico-perfume" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <path d="M9 3h6v2.4l-1.3 1.6H10.3L9 5.4V3z"/>
+        <rect x="8" y="7" width="8" height="14" rx="2"/>
+        <line x1="12" y1="7" x2="12" y2="10"/>
+      </symbol>
+      <symbol id="ico-jewelry" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <circle cx="12" cy="8" r="4.2"/>
+        <path d="M8.6 11.4L6 20h12l-2.6-8.6"/>
+      </symbol>
+      <symbol id="ico-glasses" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <circle cx="6.5" cy="13" r="3.5"/>
+        <circle cx="17.5" cy="13" r="3.5"/>
+        <path d="M10 12.4h4M3 12l2.2-4.8h3M21 12l-2.2-4.8h-3"/>
+      </symbol>
+      <symbol id="ico-headphones" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <path d="M4 14v-2a8 8 0 0116 0v2"/>
+        <rect x="3" y="14" width="4" height="6" rx="1.4"/>
+        <rect x="17" y="14" width="4" height="6" rx="1.4"/>
+      </symbol>
+      <symbol id="ico-lamp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <path d="M7 4h10l-2 7H9L7 4z"/>
+        <line x1="12" y1="11" x2="12" y2="18"/>
+        <path d="M8 21h8M9.5 18h5"/>
+      </symbol>
+      <symbol id="ico-shirt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <path d="M8 4L4 7l2 3 2-1v11h8V9l2 1 2-3-4-3-2 2h-4L8 4z"/>
+      </symbol>
+      <symbol id="ico-watch" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <circle cx="12" cy="12" r="5.5"/>
+        <path d="M9.5 2h5l.6 4.5h-6.2L9.5 2zM9.5 22h5l.6-4.5h-6.2L9.5 22z"/>
+        <path d="M12 9.5V12l2 1.3"/>
+      </symbol>
+      <symbol id="ico-gift" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <rect x="3" y="9" width="18" height="4" rx="0.6"/>
+        <rect x="4.5" y="13" width="15" height="8" rx="0.6"/>
+        <line x1="12" y1="9" x2="12" y2="21"/>
+        <path d="M12 9C9 9 8 6.5 9.5 5.2 11 4 12 6 12 9zM12 9c3 0 4-2.5 2.5-3.8C13 4 12 6 12 9z"/>
+      </symbol>
+      <symbol id="ico-snack" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <path d="M6 4h12l1 5-2 11H7L5 9l1-5z"/>
+        <path d="M6 4c1.5 1.2 3.5 1.2 6 0s4.5-1.2 6 0"/>
+      </symbol>
+      <symbol id="ico-jar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <rect x="6" y="9" width="12" height="11" rx="2"/>
+        <rect x="8" y="4" width="8" height="5" rx="1"/>
+      </symbol>
+      <symbol id="ico-viral" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <path d="M13 2L4 14h6l-1 8 9-12h-6l1-8z"/>
+      </symbol>
+      <symbol id="ico-wallet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <rect x="3" y="6" width="18" height="13" rx="2"/>
+        <path d="M3 10h18"/>
+        <circle cx="16.5" cy="14" r="1.2" fill="currentColor" stroke="none"/>
+      </symbol>
+      <symbol id="ico-diffuser" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <path d="M8 21V11a4 4 0 018 0v10"/>
+        <line x1="6" y1="21" x2="18" y2="21"/>
+        <line x1="10" y1="3" x2="9" y2="9"/>
+        <line x1="12" y1="2" x2="12" y2="9"/>
+        <line x1="14" y1="3" x2="15" y2="9"/>
+      </symbol>
+      <symbol id="ico-mirror" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <circle cx="12" cy="9" r="6"/>
+        <line x1="12" y1="15" x2="12" y2="21"/>
+        <line x1="8.5" y1="21" x2="15.5" y2="21"/>
+      </symbol>
+      <symbol id="ico-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+        <circle cx="11" cy="11" r="7"/>
+        <line x1="21" y1="21" x2="16.2" y2="16.2"/>
+      </symbol>
+      <symbol id="ico-grid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+        <rect x="3" y="3" width="7" height="7" rx="1"/>
+        <rect x="14" y="3" width="7" height="7" rx="1"/>
+        <rect x="3" y="14" width="7" height="7" rx="1"/>
+        <rect x="14" y="14" width="7" height="7" rx="1"/>
+      </symbol>
+      <symbol id="ico-list" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+        <line x1="8" y1="6" x2="21" y2="6"/>
+        <line x1="8" y1="12" x2="21" y2="12"/>
+        <line x1="8" y1="18" x2="21" y2="18"/>
+        <circle cx="3.5" cy="6" r="1" fill="currentColor" stroke="none"/>
+        <circle cx="3.5" cy="12" r="1" fill="currentColor" stroke="none"/>
+        <circle cx="3.5" cy="18" r="1" fill="currentColor" stroke="none"/>
+      </symbol>
+      <symbol id="ico-whatsapp" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18a8 8 0 01-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1112 20zm4.4-5.9c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.6.1s-.6.8-.8 1c-.1.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.6-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.2-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.9-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-1 .9-1 2.3s1 2.6 1.1 2.8c.1.2 2 3.1 4.9 4.2.7.3 1.2.4 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z"/>
+      </symbol>
+      <symbol id="ico-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <line x1="5" y1="5" x2="19" y2="19"/>
+        <line x1="19" y1="5" x2="5" y2="19"/>
+      </symbol>
+      <symbol id="ico-monogram" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="3.4">
+        <path d="M6 50V12l14 20 14-20v38"/>
+        <path d="M40 12c-9 0-16 8-16 18s7 18 16 18 16-8 16-18"/>
+      </symbol>
+      <symbol id="ico-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="6 9 12 15 18 9"/>
+      </symbol>
+      <symbol id="ico-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <polyline points="20 6 9 17 4 12"/>
+      </symbol>
+      <symbol id="ico-layers" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+        <polygon points="12 3 21 8 12 13 3 8 12 3"/>
+        <polyline points="3 13 12 18 21 13"/>
+      </symbol>
+
+      <symbol id="ico-map-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M12 21s7-6.5 7-12a7 7 0 10-14 0c0 5.5 7 12 7 12z"/>
+        <circle cx="12" cy="9" r="2.4"/>
+      </symbol>
+      <symbol id="ico-moto" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="5.5" cy="17.5" r="2.5"/>
+        <circle cx="18.5" cy="17.5" r="2.5"/>
+        <path d="M5.5 17.5h6l2-6h4M9 11.5h4l1.5 3"/>
+        <path d="M13.5 11.5l2-3h2.5"/>
+      </symbol>
+      <symbol id="ico-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="12" cy="12" r="9"/>
+        <path d="M3 12h18M12 3a14 14 0 010 18 14 14 0 010-18z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="./index.html" class="brand">
+        <img class="brand-mark" src="./images/Logotipo - letras.png" alt="Logo de Mood Shop" />
+        <span class="brand-text">
+          <span class="brand-name">MOOD SHOP</span>
+          <span class="brand-tag">Productos para cada <em>mood</em>.</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="./index.html">Inicio</a>
+        <a href="./catalogo-mood-shop.html" class="active">Catálogo</a>
+        <a href="./contacto.html">Contacto</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn-whatsapp" href="https://wa.link/bdqm1g" id="whatsappBtn" target="_blank">
+          <svg>
+            <use href="#ico-whatsapp" />
+          </svg>
+          <span>Escríbenos</span>
+        </a>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menú" aria-expanded="false"
+          aria-controls="mobileNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE NAV DRAWER ============ -->
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-panel">
+      <div class="mobile-nav-head">
+        <span class="brand-name">MENÚ</span>
+        <button class="mobile-nav-close" id="mobileNavClose" aria-label="Cerrar menú">
+          <svg>
+            <use href="#ico-close" />
+          </svg>
+        </button>
+      </div>
+      <nav class="mobile-nav-links" aria-label="Navegación móvil">
+        <a href="./index.html">Inicio</a>
+        <a href="./catalogo-mood-shop.html" class="active">Catálogo</a>
+        <a href="./contacto.html">Contacto</a>
+      </nav>
+      <div class="mobile-nav-cta">
+        <a class="btn-whatsapp" href="https://wa.link/bdqm1g" target="_blank">
+          <svg>
+            <use href="#ico-whatsapp" />
+          </svg>
+          <span>Escríbenos</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <h1>CATÁLOGO</h1>
+        <p>Explora nuestra selección completa de productos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CATALOG ============ -->
+  <section class="catalog-section">
+    <div class="catalog-layout">
+
+      <!-- Sidebar -->
+      <aside class="sidebar" aria-label="Filtros">
+        <div class="filter-block">
+          <div class="filter-block-head">
+            <span class="filter-title">FILTRAR POR</span>
+          </div>
+          <p class="filter-label">CATEGORÍAS</p>
+          <div class="cat-list" id="categoryList" role="list"></div>
+        </div>
+      </aside>
+
+      <!-- Main -->
+      <div class="catalog-main">
+
+        <!-- Mobile category filter -->
+        <div class="mobile-filter">
+          <button type="button" class="category-trigger" id="categoryTrigger" aria-haspopup="dialog"
+            aria-expanded="false" aria-controls="categorySheet">
+            <span class="ct-icon-wrap"><svg class="ct-icon">
+                <use href="#ico-layers" />
+              </svg></span>
+            <span class="ct-text">
+              <span class="ct-eyebrow">Categoría</span>
+              <span class="ct-value" id="categoryTriggerValue">Todos los productos</span>
+            </span>
+            <svg class="ct-chevron">
+              <use href="#ico-chevron-down" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Category bottom sheet (mobile) -->
+        <div class="category-sheet-overlay" id="categorySheetOverlay">
+          <div class="category-sheet" id="categorySheet" role="dialog" aria-label="Filtrar por categoría">
+            <div class="category-sheet-handle"></div>
+            <div class="category-sheet-head">
+              <h3>Filtrar por categoría</h3>
+              <button type="button" class="category-sheet-close" id="categorySheetClose" aria-label="Cerrar">
+                <svg>
+                  <use href="#ico-close" />
+                </svg>
+              </button>
+            </div>
+            <div class="category-sheet-list" id="categorySheetList" role="listbox"></div>
+          </div>
+        </div>
+
+        <div class="toolbar">
+          <p class="result-count" id="resultCount"></p>
+          <div class="toolbar-right">
+            <select class="sort-select" id="sortSelect" aria-label="Ordenar por">
+              <option value="recent">Ordenar por: Más recientes</option>
+              <option value="price-asc">Precio: menor a mayor</option>
+              <option value="price-desc">Precio: mayor a menor</option>
+              <option value="name-asc">Nombre: A–Z</option>
+            </select>
+            <div class="view-toggle" role="group" aria-label="Tipo de vista">
+              <button type="button" id="gridViewBtn" class="active" aria-pressed="true" aria-label="Ver en cuadrícula">
+                <svg>
+                  <use href="#ico-grid" />
+                </svg>
+              </button>
+              <button type="button" id="listViewBtn" aria-pressed="false" aria-label="Ver en lista">
+                <svg>
+                  <use href="#ico-list" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-grid" id="productGrid"></div>
+
+        <div class="load-more-wrap">
+          <button class="btn-outline" id="loadMoreBtn">Cargar más productos ↓</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ENTREGAS Y ENVÍOS ============ -->
+  <section class="shipping-section">
+    <div class="shipping-grid">
+
+      <div class="shipping-card">
+        <div class="shipping-icon"><svg><use href="#ico-map-pin"/></svg></div>
+        <h3>Entregas</h3>
+        <p>
+          Se realizan entregas personales en varios puntos de Xalapa, previamente acordados por
+          WhatsApp para tu comodidad. También coordinamos entregas en lugares a convenir dentro
+          de la ciudad. Solo escríbenos con tu pedido y te confirmamos el punto y horario disponibles.
+        </p>
+      </div>
+
+      <div class="shipping-card">
+        <div class="shipping-icon"><svg><use href="#ico-moto"/></svg></div>
+        <h3>Envíos por moto servicio</h3>
+        <p>
+          Servicio de moto dentro de Xalapa y sus alrededores. Si prefieres recibirlo directo en tu
+          domicilio, el costo se cotiza según tu ubicación exacta. Escríbenos por WhatsApp con tu
+          dirección y te confirmamos el costo y el tiempo estimado de entrega.
+        </p>
+      </div>
+
+      <div class="shipping-card">
+        <div class="shipping-icon"><svg><use href="#ico-globe"/></svg></div>
+        <h3>Envíos nacionales</h3>
+        <p>
+          Realizamos envíos a todo México a través de paquetería. El costo y tiempo de entrega
+          varían según tu ubicación; una vez confirmado tu pedido te compartimos el número de
+          guía para que puedas dar seguimiento en todo momento.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="brand">
+          <img class="brand-mark" src="./images/Logotipo - letras.png" alt="Logo de Mood Shop" />
+          <span class="brand-text">
+            <span class="brand-name">MOOD SHOP</span>
+            <span class="brand-tag">Productos para cada <em>mood</em>.</span>
+          </span>
+        </a>
+        <p>Una concept store donde cada producto conecta contigo y tu estilo de vida.</p>
+      </div>
+      <div class="footer-col">
+        <h4>NAVEGACIÓN</h4>
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./catalogo-mood-shop.html">Catálogo</a></li>
+          <li><a href="./index.html#categorias">Categorías</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>ATENCIÓN</h4>
+        <ul>
+          <li><a href="./404.html">Preguntas frecuentes</a></li>
+          <li><a href="./404.html">Envíos y entregas</a></li>
+          <li><a href="./404.html">Cambios y devoluciones</a></li>
+          <li><a href="./contacto.html">Contáctanos</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>ESCRÍBENOS</h4>
+        <ul>
+          <li><a href="https://wa.link/bdqm1g" target="_blank" rel="noopener">+52 228 111 8405</a></li>
+          <li><a href="mailto:1moodshop1@gmail.com">1moodshop1@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Mood Shop. Todos los derechos reservados.</div>
+  </footer>
+
+  <script src="js/catalog.js"></script>
+</body>
+
+</html>

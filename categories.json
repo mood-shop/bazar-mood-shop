@@ -1,0 +1,5 @@
+[
+  { "id": "joyeria", "name": "Joyería", "icon": "jewelry" },
+  { "id": "Mieles", "name": "Mieles estimulantes", "icon": "jar" },
+  { "id": "Chocolates", "name": "Chocolates estimulantes", "icon": "jar" }
+]
