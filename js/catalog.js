@@ -154,9 +154,14 @@
           <div class="product-info">
             <div>
               <p class="product-cat">${CATALOG_LABEL[p.cat] || p.cat}</p>
+              ${p.genero ? `<p class="product-genero">${p.genero}</p>` : ""}
               <h3 class="product-name">${p.name}</h3>
+              ${p.desc ? `<p class="product-desc">${p.desc}</p>` : ""}
             </div>
-            <p class="product-price">$${p.price.toLocaleString('es-MX')}</p>
+            <div class="price-row">
+              <p class="product-price">$${p.price.toLocaleString('es-MX')}</p>
+              ${p.oldPrice ? `<p class="product-price-old">$${p.oldPrice.toLocaleString('es-MX')}</p>` : ""}
+            </div>
           </div>
         </a>
       `).join("");
@@ -257,12 +262,16 @@
       // en una página de detalle de producto.
       PRODUCTS = data;
 
-      // Para el catálogo solo se necesita: imagen, nombre, precio, categoría y slug (para el link al detalle).
+      // Para el catálogo se necesita: imagen, nombre, descripción, precio,
+      // precio tachado, categoría, género y slug (para el link al detalle).
       CATALOG_ITEMS = data.map(p => ({
         id: p.id,
         name: p.nombre,
+        desc: p.descripcion || "",
         cat: p.categoria,
+        genero: (p.detalles && (p.detalles["Género"] || p.detalles["Genero"])) || "",
         price: p.precio,
+        oldPrice: p.precioTachado || null,
         image: (p.imagenes && p.imagenes[0]) ? p.imagenes[0] : "",
         slug: p.slug
       }));

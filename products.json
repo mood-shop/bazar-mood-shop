@@ -6,7 +6,7 @@
     "categoria": "Mieles",
     "precio": 100,
     "precioTachado": 120,
-    "stock": 3,
+    "stock": 100,
     "imagenes": [
       "./images/productos/mieles/1-royal.png",
       "./images/productos/mieles/1.2-royal.jpeg"
@@ -104,7 +104,7 @@
     "categoria": "Mieles",
     "precio": 130,
     "precioTachado": 150,
-    "stock": 3,
+    "stock": 100,
     "imagenes": [
       "./images/productos/mieles/3-bull.png",
       "./images/productos/mieles/3.2-bull.jpeg"
@@ -152,7 +152,7 @@
     "categoria": "Chocolates",
     "precio": 120,
     "precioTachado": 140,
-    "stock": 3,
+    "stock": 100,
     "imagenes": [
       "./images/productos/mieles/4-choco.png",
       "./images/productos/mieles/4.2-choco.jpeg"
@@ -244,6 +244,104 @@
 
   {
     "id": "prod-006",
+    "nombre": "Vitafer - L",
+    "descripcion": "Potente energizante y estimulante natural formulado para llevar el rendimiento masculino al siguiente nivel con doble potencia de acción rápida.",
+    "categoria": "Mieles",
+    "precio": 100,
+    "precioTachado": 130,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/mieles/6-vitafer.png",
+      "./images/productos/mieles/6.2-vitafer.jpg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 100
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 90
+      },
+      {
+        "piezas": 4,
+        "precioUnitario": 70
+      },
+      {
+        "piezas": 5,
+        "precioUnitario": 60
+      }
+    ],
+    "beneficios": [
+      "Fortalece, endurece y prolonga la erección.",
+      "Aumenta notablemente el deseo y apetito sexual.",
+      "Ayuda a retrasar la eyaculación y mejorar el control.",
+      "Eleva niveles de testosterona y circulación.",
+      "Aporta energía física duradera para todo el día."
+    ],
+    "instrucciones": "Consumir el contenido completo de 1 sobre aproximadamente 20 a 30 minutos antes del encuentro íntimo.",
+    "detalles": {
+      "Marca": "Vitafer",
+      "Contenido": "1 sobre con 10ml",
+      "Género": "Hombre"
+    },
+    "slug": "vitafer-l",
+    "ventaMayoreo": true,
+    "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
+    "destacado": false
+  },
+
+  {
+    "id": "prod-007",
+    "nombre": "Lady in red 💋",
+    "descripcion": "Fórmula estimulante de alta gama diseñada especialmente para despertar el deseo, potenciar la sensualidad y maximizar el placer femenino.",
+    "categoria": "Mieles",
+    "precio": 100,
+    "precioTachado": 120,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/mieles/7-lady.png",
+      "./images/productos/mieles/7.2-lady.jpg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 90
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 85
+      },
+      {
+        "piezas": 4,
+        "precioUnitario": 80
+      },
+      {
+        "piezas": 5,
+        "precioUnitario": 75
+      }
+    ],
+    "beneficios": [
+      "Eleva la libido y enciende el deseo rápidamente.",
+      "Favorece una lubricación natural abundante y placentera.",
+      "Estimula la sensibilidad para orgasmos más intensos y duraderos.",
+      "Empodera tu lado más sensual y desinhibido.",
+      "Garantiza una experiencia íntima superior e inolvidable."
+    ],
+    "instrucciones": "Consumir el contenido completo de 1 sobre aproximadamente 1 hora antes del encuentro íntimo.",
+    "detalles": {
+      "Marca": "Lady in red",
+      "Contenido": "1 sobre con 10gr",
+      "Género": "Mujer"
+    },
+    "slug": "lady-in-red",
+    "ventaMayoreo": true,
+    "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
+    "destacado": false
+  },
+
+  {
+    "id": "prod-008",
     "nombre": "Mónaco con zirconias",
     "descripcion": "Pulso con clásico tejido cubano e incrustación de microzirconias suizas en cada uno de los eslabones, coronado con broche Mónaco para más seguridad y presencia.",
     "categoria": "joyeria",
@@ -263,7 +361,7 @@
     "detalles": {
       "Material": "Plata de ley .925 con zirconias suizas",
       "Estuche": "Si",
-      "Medida": "00cm"
+      "Medida": "19cm"
     },
     "slug": "monaco-con-zirconias",
     "ventaMayoreo": false,
@@ -272,7 +370,7 @@
   },
 
   {
-    "id": "prod-007",
+    "id": "prod-009",
     "nombre": "Baby rolex (8 mm)",
     "descripcion": "Pulso en tejido clásico Rolex hecho en plata ley .925 con broche de caja/mariposa y logo Rolex de alta calidad también en broche.",
     "categoria": "joyeria",
@@ -292,16 +390,16 @@
     "detalles": {
       "Material": "Plata de ley .925",
       "Estuche": "Si",
-      "Medida": "00cm"
+      "Medida": "18.5cm"
     },
-    "slug": "roles-mini-8-mm",
+    "slug": "rolex-mini-8-mm",
     "ventaMayoreo": false,
     "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
     "destacado": true
   },
 
   {
-    "id": "prod-008",
+    "id": "prod-010",
     "nombre": "Tenis corazón rojo",
     "descripcion": "Pulso estilo tenis hecho en plata de ley .925 e incrustación de zirconia en forma de corazón rojo al centro.",
     "categoria": "joyeria",
@@ -321,7 +419,7 @@
     "detalles": {
       "Material": "Plata de ley .925",
       "Estuche": "Si",
-      "Medida": "00cm"
+      "Medida": "15.5cm"
     },
     "slug": "tenis-corazon-rojo",
     "ventaMayoreo": false,
