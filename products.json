@@ -257,11 +257,11 @@
     "preciosPorPieza": [
       {
         "piezas": 2,
-        "precioUnitario": 100
+        "precioUnitario": 90
       },
       {
         "piezas": 3,
-        "precioUnitario": 90
+        "precioUnitario": 80
       },
       {
         "piezas": 4,
@@ -269,7 +269,7 @@
       },
       {
         "piezas": 5,
-        "precioUnitario": 60
+        "precioUnitario": 65
       }
     ],
     "beneficios": [
