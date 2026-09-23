@@ -768,5 +768,38 @@
     "ventaMayoreo": false,
     "catalogoMayoreoURL": "",
     "destacado": true
+  }, 
+
+  {
+    "id": "prod-019",
+    "nombre": "1800 The Ultimate Margarita (Mango) | Edición importada 1.75L",
+    "descripcion": "Eleva tus reuniones al nivel VIP con \"1800 The Ultimate Margarita\" sabor Mango. Olvídate de preparar cocteles complicados o comprar ingredientes por separado; esta botella monumental de 1.75 Litros viene lista para servir y disfrutar. Elaborada con el prestigioso Tequila 1800 premium, licor triple sec y extractos de sabor natural a mango. Es la opción definitiva para quienes buscan exclusividad, lujo y el sabor perfecto de una margarita profesional sin salir de casa. Solo agrega hielo y conviértete en el mejor anfitrión.",
+    "categoria": "Alcohol-importado",
+    "precio": 1300,
+    "precioTachado": 1500,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/alcohol-importado/tequila-1800-mango-1.png",
+      "./images/productos/alcohol-importado/tequila-1800-mango-2.jpg",
+      "./images/productos/alcohol-importado/tequila-1800-mango-3.jpg"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [
+      "Cóctel premium listo para servir al instante (Ready to serve).",
+      "Elaborado con auténtico Tequila 1800 premium y licor triple sec.",
+      "Tamaño gigante de 1.75 Litros, rinde perfecto para reuniones de alto nivel.",
+      "Experiencia de mixología profesional sin el esfuerzo de prepararlo."
+    ],
+    "instrucciones": "Se recomienda servir bien frío en un vaso escarchado con hielo.",
+    "detalles": {
+      "Contenido": "1.75 L",
+      "Porcentaje de Alcohol (ABV)": "9.95% (19.9 Proof)",
+      "Base": "Tequila 1800 Premium y Triple Sec",
+      "Perfil de Sabor": "Mango tropical"
+    },
+    "slug": "tequila-1800-ultimate-margarita-mango",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": true
   }
 ]
