@@ -4,8 +4,9 @@
   /* ============ DATA ============ */
   // Las categorías reales (id, nombre, ícono) se cargan desde categories.json.
   // "Todos los productos" se agrega automáticamente al inicio de la lista.
+  // El campo "icon" ahora contiene una clase de Font Awesome (ej. "fa-solid fa-gem").
   let CATEGORIES = [
-    { id: "todos", name: "Todos los productos", icon: "layers" }
+    { id: "todos", name: "Todos los productos", icon: "fa-solid fa-layer-group" }
   ];
 
   // Icono de respaldo por categoría (se usa si una imagen del producto no carga)
@@ -51,7 +52,7 @@
     categoryListEl.innerHTML = CATEGORIES.map(c => `
       <button type="button" class="cat-item ${state.category === c.id ? 'active' : ''}" data-cat="${c.id}" role="listitem">
         <span class="cat-left">
-          <svg class="cat-ico"><use href="#ico-${c.icon}"/></svg>
+          <i class="cat-ico ${c.icon}"></i>
           ${c.name}
         </span>
         <span class="cat-count">(${catCounts[c.id]})</span>
@@ -70,12 +71,12 @@
 
     categorySheetList.innerHTML = CATEGORIES.map(c => `
       <button type="button" class="sheet-option ${state.category === c.id ? 'active' : ''}" data-cat="${c.id}" role="option" aria-selected="${state.category === c.id}">
-        <span class="sheet-option-icon"><svg><use href="#ico-${c.icon}"/></svg></span>
+        <span class="sheet-option-icon"><i class="${c.icon}"></i></span>
         <span class="sheet-option-body">
           <span class="sheet-option-name">${c.name}</span>
           <span class="sheet-option-count">${catCounts[c.id]} producto${catCounts[c.id] === 1 ? '' : 's'}</span>
         </span>
-        <span class="sheet-option-check"><svg><use href="#ico-check"/></svg></span>
+        <span class="sheet-option-check"><i class="fa-solid fa-check"></i></span>
       </button>
     `).join("");
 
@@ -147,9 +148,9 @@
               src="${p.image}"
               alt="${p.name}"
               loading="lazy"
-              onerror="window.__thumbFallback(this,'${CATEGORY_ICON[p.cat] || 'gift'}')"
+              onerror="window.__thumbFallback(this)"
             >
-            <svg class="thumb-fallback-icon" hidden><use href="#ico-${CATEGORY_ICON[p.cat] || 'gift'}"/></svg>
+            <i class="thumb-fallback-icon ${CATEGORY_ICON[p.cat] || 'fa-solid fa-gift'}" hidden></i>
           </div>
           <div class="product-info">
             <div>
@@ -227,8 +228,8 @@
 
   /* ============ FALLBACK DE IMAGEN ============ */
   // Si la imagen del producto no carga (ruta rota o archivo faltante),
-  // se oculta el <img> y se muestra el ícono de la categoría en su lugar.
-  window.__thumbFallback = function(imgEl, iconName){
+  // se oculta el <img> y se muestra el ícono de Font Awesome de su categoría.
+  window.__thumbFallback = function(imgEl){
     imgEl.style.display = "none";
     const icon = imgEl.parentElement.querySelector(".thumb-fallback-icon");
     if(icon) icon.hidden = false;
@@ -249,7 +250,7 @@
       const data = await prodRes.json();
 
       // "Todos los productos" siempre va primero, seguido de las categorías del JSON.
-      CATEGORIES = [{ id: "todos", name: "Todos los productos", icon: "layers" }, ...categoriesData];
+      CATEGORIES = [{ id: "todos", name: "Todos los productos", icon: "fa-solid fa-layer-group" }, ...categoriesData];
 
       CATEGORY_ICON = {};
       CATEGORIES.forEach(c => { CATEGORY_ICON[c.id] = c.icon; });

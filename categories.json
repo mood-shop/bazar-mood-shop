@@ -1,5 +1,6 @@
 [
-  { "id": "joyeria", "name": "Joyería", "icon": "jewelry" },
-  { "id": "Mieles", "name": "Mieles estimulantes", "icon": "jar" },
-  { "id": "Chocolates", "name": "Chocolates estimulantes", "icon": "jar" }
+  { "id": "joyeria", "name": "Joyería", "icon": "fa-solid fa-gem" },
+  { "id": "Mieles", "name": "Mieles estimulantes", "icon": "fa-solid fa-flask" },
+  { "id": "Chocolates", "name": "Chocolates estimulantes", "icon": "fa-solid fa-cookie-bite" },
+  { "id": "Alcohol-importado", "name": "Alcohol importado", "icon": "fa-brands fa-untappd" }
 ]

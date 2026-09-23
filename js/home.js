@@ -9,7 +9,9 @@
   }
 
   /* ============ FALLBACK DE IMAGEN ============ */
-  window.__thumbFallback = function(imgEl, iconName){
+  // Si la imagen del producto no carga, se oculta el <img> y se muestra
+  // el ícono de Font Awesome de su categoría.
+  window.__thumbFallback = function(imgEl){
     imgEl.style.display = "none";
     const icon = imgEl.parentElement.querySelector(".thumb-fallback-icon");
     if(icon) icon.hidden = false;
@@ -32,7 +34,7 @@
 
     grid.innerHTML = featured.map(p => {
       const img = (p.imagenes && p.imagenes[0]) ? p.imagenes[0] : "";
-      const icon = categoryIcon[p.categoria] || "gift";
+      const icon = categoryIcon[p.categoria] || "fa-solid fa-gift";
       return `
         <a class="product-card" href="producto.html?=${p.slug}">
           <div class="product-thumb">
@@ -40,9 +42,9 @@
               src="${img}"
               alt="${escapeHtml(p.nombre)}"
               loading="lazy"
-              onerror="window.__thumbFallback(this,'${icon}')"
+              onerror="window.__thumbFallback(this)"
             >
-            <svg class="thumb-fallback-icon" hidden><use href="#ico-${icon}"/></svg>
+            <i class="thumb-fallback-icon ${icon}" hidden></i>
           </div>
           <div class="product-info">
             <div>
@@ -68,7 +70,7 @@
       const count = products.filter(p => p.categoria === c.id).length;
       return `
         <a class="category-tile" href="catalogo-mood-shop.html?cat=${c.id}">
-          <span class="category-tile-icon"><svg><use href="#ico-${c.icon}"/></svg></span>
+          <span class="category-tile-icon"><i class="${c.icon}"></i></span>
           <span class="category-tile-name">${escapeHtml(c.name)}</span>
           <span class="category-tile-count">${count} producto${count === 1 ? '' : 's'}</span>
         </a>`;

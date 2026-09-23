@@ -46,7 +46,6 @@
     "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
     "destacado": true
   },
-
   {
     "id": "prod-002",
     "nombre": "Pink PussyCat",
@@ -96,7 +95,6 @@
     "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
     "destacado": true
   },
-
   {
     "id": "prod-003",
     "nombre": "Black Bull Extreme",
@@ -144,7 +142,6 @@
     "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
     "destacado": false
   },
-
   {
     "id": "prod-004",
     "nombre": "Rhino Chocolate VIP",
@@ -193,7 +190,6 @@
     "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
     "destacado": true
   },
-
   {
     "id": "prod-005",
     "nombre": "Black Horse",
@@ -241,7 +237,6 @@
     "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
     "destacado": false
   },
-
   {
     "id": "prod-006",
     "nombre": "Vitafer - L",
@@ -290,7 +285,6 @@
     "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
     "destacado": false
   },
-
   {
     "id": "prod-007",
     "nombre": "Lady in red 💋",
@@ -368,7 +362,6 @@
     "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
     "destacado": true
   },
-
   {
     "id": "prod-009",
     "nombre": "Baby rolex (8 mm)",
@@ -424,6 +417,356 @@
     "slug": "tenis-corazon-rojo",
     "ventaMayoreo": false,
     "catalogoMayoreoURL": "https://canva.link/qa73bhf1k20umke",
+    "destacado": true
+  },
+
+  {
+    "id": "prod-011",
+    "nombre": "Cerveza chelada importada (Mango y Chile) | Sabores Exóticos que NO verás en México",
+    "descripcion": "Una verdadera explosión exótica que rompe las reglas de la michelada tradicional. Esta lata combina la calidad de Cerveza Modelo con el dulzor tropical del mango y el toque picante exacto del chile. Es un sabor de altísima demanda en Estados Unidos que simplemente no llega a las tiendas de conveniencia aquí. Paga por la exclusividad de destapar un sabor que todos envidiarán en tu próxima reunión.",
+    "categoria": "Alcohol-importado",
+    "precio": 110,
+    "precioTachado": 140,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/alcohol-importado/chelada-mango-1.png",
+      "./images/productos/alcohol-importado/chelada-mango-2.jpg",
+      "./images/productos/alcohol-importado/cheladas-info.jpg",
+      "./images/productos/alcohol-importado/cheladas-todas-1.jpg",
+      "./images/productos/alcohol-importado/cheladas-todas-2.jpg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 100
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 95
+      }
+    ],
+    "beneficios": [
+      "Edición VIP exclusiva que no se encuentra en tiendas locales de México.",
+      "Balance perfecto entre dulce, salado y picante.",
+      "Cerveza mezclada lista para beber.",
+      "Ideal para ser la envidia de tus reuniones."
+    ],
+    "instrucciones": "Se recomienda tomar bien fría.",
+    "detalles": {
+      "Contenido": "355 ml",
+      "Perfil de Sabor": "Mango dulce contrastado con chile picante (Mango y Chile)",
+      "Base": "Cerveza Modelo de alta calidad",
+      "Porcentaje de Alcohol (ABV)": "3.5%",
+      "Origen": "Calidad de exportación VIP (Brewed in Mexico)"
+    },
+    "slug": "modelo-chelada-mango-chile",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": true
+  },
+  {
+    "id": "prod-012",
+    "nombre": "Cerveza chelada importada (Piña Picante) | Sabores Exóticos que NO verás en México",
+    "descripcion": "Si creías que ya habías probado todas las combinaciones de cerveza, piénsalo dos veces. Esta edición especial mezcla el jugo refrescante de la piña con notas de chile picante. Un balance perfecto, audaz y vibrante reservado solo para el mercado de exportación. Siéntete VIP disfrutando de una chelada premium que es imposible encontrar en tu súper local.",
+    "categoria": "Alcohol-importado",
+    "precio": 110,
+    "precioTachado": 140,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/alcohol-importado/chelada-piña-1.png",
+      "./images/productos/alcohol-importado/chelada-piña-2.jpg",
+      "./images/productos/alcohol-importado/cheladas-info.jpg",
+      "./images/productos/alcohol-importado/cheladas-todas-1.jpg",
+      "./images/productos/alcohol-importado/cheladas-todas-2.jpg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 100
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 95
+      }
+    ],
+    "beneficios": [
+      "Edición VIP exclusiva que no se encuentra en tiendas locales de México.",
+      "Balance perfecto entre dulce, salado y picante.",
+      "Cerveza mezclada lista para beber.",
+      "Ideal para ser la envidia de tus reuniones."
+    ],
+    "instrucciones": "Se recomienda tomar bien fría.",
+    "detalles": {
+      "Contenido": "355 ml",
+      "Perfil de Sabor": "Cítrico, dulce y picante (Piña Picante)",
+      "Base": "Cerveza Modelo de alta calidad",
+      "Porcentaje de Alcohol (ABV)": "3.5%",
+      "Origen": "Calidad de exportación VIP (Brewed in Mexico)"
+    },
+    "slug": "modelo-chelada-pina-picante",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": true
+  },
+  {
+    "id": "prod-013",
+    "nombre": "Cerveza chelada importada (Sandía Picante) | Sabores Exóticos que NO verás en México",
+    "descripcion": "Refrescante, atrevida y sumamente codiciada. Esta lata fusiona el sabor jugoso de la sandía con un toque de chile para crear la chelada definitiva. Olvídate de preparar tus propias mezclas; aquí tienes calidad de exportación y un sabor exótico en un empaque premium. Una verdadera rareza de importación que vale cada peso por su inigualable frescura.",
+    "categoria": "Alcohol-importado",
+    "precio": 110,
+    "precioTachado": 140,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/alcohol-importado/chelada-sandia-1.png",
+      "./images/productos/alcohol-importado/chelada-sandia-2.jpg",
+      "./images/productos/alcohol-importado/cheladas-info.jpg",
+      "./images/productos/alcohol-importado/cheladas-todas-1.jpg",
+      "./images/productos/alcohol-importado/cheladas-todas-2.jpg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 100
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 95
+      }
+    ],
+    "beneficios": [
+      "Edición VIP exclusiva que no se encuentra en tiendas locales de México.",
+      "Balance perfecto entre dulce, salado y picante.",
+      "Cerveza mezclada lista para beber.",
+      "Ideal para ser la envidia de tus reuniones."
+    ],
+    "instrucciones": "Se recomienda tomar bien fría.",
+    "detalles": {
+      "Contenido": "355 ml",
+      "Perfil de Sabor": "Jugosa sandía con notas picantes (Sandía Picante)",
+      "Base": "Cerveza Modelo de alta calidad",
+      "Porcentaje de Alcohol (ABV)": "3.5%",
+      "Origen": "Calidad de exportación VIP (Brewed in Mexico)"
+    },
+    "slug": "modelo-chelada-sandia-picante",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": true
+  },
+  {
+    "id": "prod-014",
+    "nombre": "Cerveza chelada importada (Limón y Sal) | Sabores Exóticos que NO verás en México",
+    "descripcion": "Para los puristas que exigen lo mejor. No la confundas con cualquier chelada comercial; esta es la versión premium de exportación que conquista Estados Unidos. Disfruta del auténtico sabor a cerveza Modelo con el equilibrio perfecto de limón y sal, sin sabores artificiales invasivos. Es la experiencia clásica elevada a un nivel VIP que marca la diferencia en cada trago.",
+    "categoria": "Alcohol-importado",
+    "precio": 110,
+    "precioTachado": 140,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/alcohol-importado/chelada-sal-limon-1.png",
+      "./images/productos/alcohol-importado/chelada-sal-limon-2.jpg",
+      "./images/productos/alcohol-importado/cheladas-info.jpg",
+      "./images/productos/alcohol-importado/cheladas-todas-1.jpg",
+      "./images/productos/alcohol-importado/cheladas-todas-2.jpg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 100
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 95
+      }
+    ],
+    "beneficios": [
+      "Edición VIP exclusiva que no se encuentra en tiendas locales de México.",
+      "Balance perfecto clásico de limón y sal sin sabores artificiales.",
+      "Cerveza mezclada lista para beber.",
+      "Ideal para ser la envidia de tus reuniones."
+    ],
+    "instrucciones": "Se recomienda tomar bien fría.",
+    "detalles": {
+      "Contenido": "355 ml",
+      "Perfil de Sabor": "Clásica, refrescante y cítrica (Limón y Sal)",
+      "Base": "Cerveza Modelo de alta calidad",
+      "Porcentaje de Alcohol (ABV)": "3.5%",
+      "Origen": "Calidad de exportación VIP (Brewed in Mexico)"
+    },
+    "slug": "modelo-chelada-limon-sal",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": true
+  },
+
+  {
+    "id": "prod-015",
+    "nombre": "Modelo Aguas Frescas con alcohol (Fresa) | Edición Exclusiva de Importación",
+    "descripcion": "¿Buscas algo premium y diferente? Esta lata no la encontrarás en el supermercado de la esquina. Diseñada exclusivamente para el mercado de Estados Unidos, esta agua fresca con alcohol (\"spiked\") te ofrece el sabor dulce y natural de la fresa. Lo mejor de todo es su textura suave, ya que no contiene gas (no bubbles), dándote una experiencia súper ligera y refrescante. Un lujo de importación directo a tu paladar.",
+    "categoria": "Alcohol-importado",
+    "precio": 110,
+    "precioTachado": 140,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/alcohol-importado/aguas-frescas-fresa-1.png",
+      "./images/productos/alcohol-importado/aguas-frescas-fresa-2.jpg",
+      "./images/productos/alcohol-importado/aguas-frescas-info.jpg",
+      "./images/productos/alcohol-importado/aguas-frescas-todas.jpg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 100
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 95
+      }
+    ],
+    "beneficios": [
+      "Edición VIP exclusiva que no se encuentra en supermercados de México.",
+      "Textura suave sin gas (No bubbles).",
+      "Elaborada con jugo de fruta real.",
+      "Ideal para refrescarte sin sentirte inflamado."
+    ],
+    "instrucciones": "Se recomienda tomar bien fría.",
+    "detalles": {
+      "Contenido": "355 ml",
+      "Perfil de Sabor": "Fresa dulce y refrescante (Strawberry Flavored)",
+      "Características": "Sin gas (No bubbles)",
+      "Porcentaje de Alcohol (ABV)": "4.5%",
+      "Origen": "Producto de importación exclusivo (Imported from Mexico)"
+    },
+    "slug": "modelo-aguas-frescas-fresa",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": true
+  },
+  {
+    "id": "prod-016",
+    "nombre": "Modelo Aguas Frescas con alcohol (Flor de Jamaica) | Edición Exclusiva de Importación",
+    "descripcion": "Reinventamos el clásico mexicano en una versión VIP de exportación. Esta bebida captura el sabor auténtico y floral de la tradicional agua de jamaica, pero con el toque exacto de alcohol para relajar tu día. Al no tener gas (no bubbles), es increíblemente suave y fácil de tomar. Una rareza importada desde Estados Unidos que muy pocos tienen el privilegio de probar aquí.",
+    "categoria": "Alcohol-importado",
+    "precio": 110,
+    "precioTachado": 140,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/alcohol-importado/aguas-frescas-jamaica-1.png",
+      "./images/productos/alcohol-importado/aguas-frescas-jamaica-2.jpg",
+      "./images/productos/alcohol-importado/aguas-frescas-info.jpg",
+      "./images/productos/alcohol-importado/aguas-frescas-todas.jpg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 100
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 95
+      }
+    ],
+    "beneficios": [
+      "Edición VIP exclusiva que no se encuentra en supermercados de México.",
+      "Textura suave sin gas (No bubbles).",
+      "Elaborada con jugo de fruta real.",
+      "Ideal para refrescarte sin sentirte inflamado."
+    ],
+    "instrucciones": "Se recomienda tomar bien fría.",
+    "detalles": {
+      "Contenido": "355 ml",
+      "Perfil de Sabor": "Flor de Jamaica tradicional (Hibiscus Flavored)",
+      "Características": "Sin gas (No bubbles)",
+      "Porcentaje de Alcohol (ABV)": "4.5%",
+      "Origen": "Producto de importación exclusivo (Imported from Mexico)"
+    },
+    "slug": "modelo-aguas-frescas-jamaica",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": true
+  },
+  {
+    "id": "prod-017",
+    "nombre": "Modelo Aguas Frescas con alcohol (Pepino y Limón) | Edición Exclusiva de Importación",
+    "descripcion": "La combinación más fresca que vas a probar, traída directamente del mercado estadounidense. Esta edición exclusiva fusiona la ligereza del pepino con el toque cítrico del limón, creando una bebida \"spiked\" sin gas (no bubbles) que no te inflama ni te empanzona. Es el upgrade perfecto a tus bebidas de fin de semana. Exclusividad y frescura en cada trago.",
+    "categoria": "Alcohol-importado",
+    "precio": 110,
+    "precioTachado": 140,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/alcohol-importado/aguas-frescas-pepino-1.png",
+      "./images/productos/alcohol-importado/aguas-frescas-pepino-2.jpg",
+      "./images/productos/alcohol-importado/aguas-frescas-info.jpg",
+      "./images/productos/alcohol-importado/aguas-frescas-todas.jpg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 100
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 95
+      }
+    ],
+    "beneficios": [
+      "Edición VIP exclusiva que no se encuentra en supermercados de México.",
+      "Textura suave sin gas (No bubbles).",
+      "Elaborada con jugo de fruta real.",
+      "Ideal para refrescarte sin sentirte inflamado."
+    ],
+    "instrucciones": "Se recomienda tomar bien fría.",
+    "detalles": {
+      "Contenido": "355 ml",
+      "Perfil de Sabor": "Pepino y Limón ultra refrescante (Cucumber Lime Flavored)",
+      "Características": "Sin gas (No bubbles)",
+      "Porcentaje de Alcohol (ABV)": "4.5%",
+      "Origen": "Producto de importación exclusivo (Imported from Mexico)"
+    },
+    "slug": "modelo-aguas-frescas-pepino",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": true
+  },
+  {
+    "id": "prod-018",
+    "nombre": "Modelo Aguas Frescas con alcohol (Piña) | Edición Exclusiva de Importación",
+    "descripcion": "Llévate el sabor del trópico con esta joya de importación. Olvídate de los hard seltzers desabridos; esta agua fresca con alcohol te da el dulzor vibrante y natural de la piña sin una sola burbuja de gas (no bubbles). Es un producto creado para exigentes en el extranjero y que ahora traemos a tus manos. Una experiencia suave, frutal y de alta gama.",
+    "categoria": "Alcohol-importado",
+    "precio": 110,
+    "precioTachado": 140,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/alcohol-importado/aguas-frescas-piña-1.png",
+      "./images/productos/alcohol-importado/aguas-frescas-piña-2.jpg",
+      "./images/productos/alcohol-importado/aguas-frescas-info.jpg",
+      "./images/productos/alcohol-importado/aguas-frescas-todas.jpg"
+    ],
+    "preciosPorPieza": [
+      {
+        "piezas": 2,
+        "precioUnitario": 100
+      },
+      {
+        "piezas": 3,
+        "precioUnitario": 95
+      }
+    ],
+    "beneficios": [
+      "Edición VIP exclusiva que no se encuentra en supermercados de México.",
+      "Textura suave sin gas (No bubbles).",
+      "Elaborada con jugo de fruta real.",
+      "Ideal para refrescarte sin sentirte inflamado."
+    ],
+    "instrucciones": "Se recomienda tomar bien fría.",
+    "detalles": {
+      "Contenido": "355 ml",
+      "Perfil de Sabor": "Piña tropical (Pineapple Flavored)",
+      "Características": "Sin gas (No bubbles)",
+      "Porcentaje de Alcohol (ABV)": "4.5%",
+      "Origen": "Producto de importación exclusivo (Imported from Mexico)"
+    },
+    "slug": "modelo-aguas-frescas-pina",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
     "destacado": true
   }
 ]

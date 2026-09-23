@@ -429,7 +429,8 @@ input[type="checkbox"] {
 
 .cat-item .cat-ico {
   width: 16px;
-  height: 16px;
+  font-size: 14px;
+  text-align: center;
   color: var(--rose);
   flex: none;
   opacity: .9;
@@ -581,8 +582,7 @@ input[type="checkbox"] {
 }
 
 .ct-icon {
-  width: 16px;
-  height: 16px;
+  font-size: 15px;
   color: var(--rose);
 }
 
@@ -746,9 +746,8 @@ input[type="checkbox"] {
   background: rgba(201, 138, 107, 0.18);
 }
 
-.sheet-option-icon svg {
-  width: 15px;
-  height: 15px;
+.sheet-option-icon i {
+  font-size: 14px;
   color: var(--rose);
 }
 
@@ -789,15 +788,14 @@ input[type="checkbox"] {
   border-color: var(--rose);
 }
 
-.sheet-option-check svg {
-  width: 11px;
-  height: 11px;
+.sheet-option-check i {
+  font-size: 10px;
   color: var(--negro);
   opacity: 0;
   transition: opacity .15s ease;
 }
 
-.sheet-option.active .sheet-option-check svg {
+.sheet-option.active .sheet-option-check i {
   opacity: 1;
 }
 
@@ -844,14 +842,13 @@ input[type="checkbox"] {
   object-fit: cover;
 }
 
-.product-thumb svg {
-  width: 34%;
-  height: 34%;
+.product-thumb .thumb-fallback-icon {
+  font-size: 40px;
   color: var(--rose);
   opacity: .92;
 }
 
-.product-thumb svg.thumb-fallback-icon[hidden] {
+.product-thumb i.thumb-fallback-icon[hidden] {
   display: none;
 }
 
@@ -881,10 +878,8 @@ input[type="checkbox"] {
 
 /* Género del producto, debajo de la categoría */
 .product-genero {
-  font-size: 10px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-muted-2);
+  font-size: 11px;
+  color: var(--rose);
   font-weight: 600;
   margin-bottom: 6px;
 }
@@ -942,7 +937,7 @@ input[type="checkbox"] {
   width:100%;
   aspect-ratio:16/9;
 }
-.product-grid.is-list .product-thumb svg{ width:20%; height:20%; }
+.product-grid.is-list .product-thumb .thumb-fallback-icon{ font-size:32px; }
 .product-grid.is-list .product-info{
   display:flex; align-items:center; justify-content:space-between; gap:20px;
   padding:20px 26px;
@@ -1025,7 +1020,7 @@ input[type="checkbox"] {
   display:flex; align-items:center; justify-content:center;
   margin-bottom:18px;
 }
-.shipping-icon svg{ width:19px; height:19px; color:var(--rose); }
+.shipping-icon i{ font-size:17px; color:var(--rose); }
 .shipping-card h3{ font-family:var(--font-display); font-size:15.5px; font-weight:700; margin-bottom:10px; }
 .shipping-card p{ font-size:13.5px; color:var(--text-muted); line-height:1.6; }
 
