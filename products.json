@@ -422,6 +422,258 @@
 
   {
     "id": "prod-011",
+    "nombre": "Aretes colgantes estilo Van Cleef trébol",
+    "descripcion": "Inspirados en la alta joyería clásica, estos aretes colgantes presentan el icónico diseño de trébol. Destaca su centro de piedra preciosa oscura finamente rodeado por un halo de zirconias brillantes. Clásicos, versátiles y sumamente elegantes.",
+    "categoria": "joyeria",
+    "precio": 1600,
+    "precioTachado": 1850,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/joyeria/aretes-van-cleff-1.png",
+      "./images/productos/joyeria/aretes-van-cleff-2.jpg",
+      "./images/productos/joyeria/aretes-van-cleff-3.jpg",
+      "./images/productos/joyeria/aretes-van-cleff-4.jpg",
+      "./images/productos/joyeria/aretes-van-cleff-5.jpg"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [],
+    "instrucciones": "",
+    "detalles": {
+      "Material": "Plata de ley .925",
+      "Estuche": "Sí",
+      "Piedra": "Zirconias y centro piedra preciosa"
+    },
+    "slug": "aretes-van-cleef-plata",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": true
+  },
+  {
+    "id": "prod-012",
+    "nombre": "Collar corazón moissanita premium (Certificado GRA)",
+    "descripcion": "Alta joyería accesible. Este delicado collar de plata fina sostiene un espectacular dije de corazón protagonizado por una auténtica piedra Moissanita, finamente rodeada por una aureola de cristales brillantes. Incluye su tarjeta de garantía y certificado de autenticidad GRA.",
+    "categoria": "joyeria",
+    "precio": 1200,
+    "precioTachado": 1490,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/joyeria/collar-moissanita-1.png",
+      "./images/productos/joyeria/collar-moissanita-2.jpg",
+      "./images/productos/joyeria/collar-moissanita-3.jpg",
+      "./images/productos/joyeria/collar-moissanita-4.jpg"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [],
+    "instrucciones": "",
+    "detalles": {
+      "Material": "Plata de ley .925",
+      "Estuche": "Sí",
+      "Piedra": "Auténtica Moissanita con Certificado GRA"
+    },
+    "slug": "collar-corazon-moissanita",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": true
+  },
+  {
+    "id": "prod-013",
+    "nombre": "Aretes largos estilo tenis con piedra preciosa rosa",
+    "descripcion": "Aporta movimiento y elegancia a tu rostro con estos elegantes aretes colgantes. Diseñados con el codiciado tejido estilo tenis, presentan una cascada de zirconias que culminan en un vibrante corazón de piedra preciosa rosa.",
+    "categoria": "joyeria",
+    "precio": 750,
+    "precioTachado": 920,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/joyeria/aretes-tenis-rosa-1.png",
+      "./images/productos/joyeria/aretes-tenis-rosa-2.jpg",
+      "./images/productos/joyeria/aretes-tenis-rosa-3.jpg",
+      "./images/productos/joyeria/aretes-tenis-rosa-4.jpg",
+      "./images/productos/joyeria/aretes-tenis-rosa-5.jpg"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [],
+    "instrucciones": "",
+    "detalles": {
+      "Material": "Plata de ley .925",
+      "Estuche": "Sí",
+      "Estilo": "Colgante Largo"
+    },
+    "slug": "aretes-tenis-corazon-rosa",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": true
+  },
+  {
+    "id": "prod-014",
+    "nombre": "Aretes largos estilo tenis corazón claro",
+    "descripcion": "Lujo minimalista para tus momentos más especiales. Estos aretes colgantes cuentan con un impecable tejido estilo tenis que desciende hasta terminar en un deslumbrante corazón de piedra preciosa clara.",
+    "categoria": "joyeria",
+    "precio": 650,
+    "precioTachado": 800,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/joyeria/aretes-tenis-blanco-1.png",
+      "./images/productos/joyeria/aretes-tenis-blanco-2.jpg",
+      "./images/productos/joyeria/aretes-tenis-blanco-3.jpg",
+      "./images/productos/joyeria/aretes-tenis-blanco-4.jpg",
+      "./images/productos/joyeria/aretes-tenis-blanco-5.jpg"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [],
+    "instrucciones": "",
+    "detalles": {
+      "Material": "Plata de ley .925",
+      "Estuche": "Sí",
+      "Estilo": "Colgante Largo"
+    },
+    "slug": "aretes-tenis-corazon-claro",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": false
+  },
+  {
+    "id": "prod-015",
+    "nombre": "Aretes colgantes de osito y estrella",
+    "descripcion": "El detalle ideal para regalar. Este tierno diseño presenta un osito de plata completamente tapizado en zirconias que cuelga sutilmente de una brillante estrella superior.",
+    "categoria": "joyeria",
+    "precio": 570,
+    "precioTachado": 690,
+    "stock": 1,
+    "imagenes": [
+      "./images/productos/joyeria/aretes-oso-colgado-1.png",
+      "./images/productos/joyeria/aretes-oso-colgado-2.jpg",
+      "./images/productos/joyeria/aretes-oso-colgado-3.jpg",
+      "./images/productos/joyeria/aretes-oso-colgado-4.jpg",
+      "./images/productos/joyeria/aretes-oso-colgado-5.jpg"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [],
+    "instrucciones": "",
+    "detalles": {
+      "Material": "Plata de ley .925",
+      "Estuche": "Sí",
+      "Estilo": "Colgante Corto"
+    },
+    "slug": "aretes-oso-estrella",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": false
+  },
+  {
+    "id": "prod-016",
+    "nombre": "Aretes de tortuga narina con piedra preciosa verde",
+    "descripcion": "Lleva contigo un símbolo de longevidad y tranquilidad. Estos detallados aretes de tortuga marina destacan por su caparazón formado por una piedra preciosa verde profunda, complementada con sutiles toques de zirconias.",
+    "categoria": "joyeria",
+    "precio": 550,
+    "precioTachado": 680,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/joyeria/aretes-tortuga-1.png",
+      "./images/productos/joyeria/aretes-tortuga-2.jpg",
+      "./images/productos/joyeria/aretes-tortuga-3.jpg",
+      "./images/productos/joyeria/aretes-tortuga-4.jpg",
+      "./images/productos/joyeria/aretes-tortuga-5.jpg"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [],
+    "instrucciones": "",
+    "detalles": {
+      "Material": "Plata de ley .925",
+      "Estuche": "Sí",
+      "Estilo": "Broquel"
+    },
+    "slug": "aretes-tortuga-esmeralda",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": false
+  },
+  {
+    "id": "prod-017",
+    "nombre": "Aretes silueta de panda",
+    "descripcion": "Una pieza moderna con un contraste visual increíble. Estos aretes forman la tierna silueta de un panda mediante incrustaciones de piedras preciosas en tono azul profundo, elegantemente enmarcada por un aro de plata y zirconias claras.",
+    "categoria": "joyeria",
+    "precio": 490,
+    "precioTachado": 590,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/joyeria/aretes-panda-1.png",
+      "./images/productos/joyeria/aretes-panda-2.jpg",
+      "./images/productos/joyeria/aretes-panda-3.jpg",
+      "./images/productos/joyeria/aretes-panda-4.jpg",
+      "./images/productos/joyeria/aretes-panda-5.jpg"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [],
+    "instrucciones": "",
+    "detalles": {
+      "Material": "Plata de ley .925",
+      "Estuche": "Sí",
+      "Estilo": "Broquel Circular"
+    },
+    "slug": "aretes-panda-zafiro",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": false
+  },
+  {
+    "id": "prod-018",
+    "nombre": "Aretes broquel de osito con piedra preciosa verde",
+    "descripcion": "Un toque de ternura que no pasa desapercibido. Estos delicados aretes en forma de osito están cubiertos por deslumbrantes zirconias claras, resaltando en su centro una hermosa piedra preciosa verde en corte de corazón.",
+    "categoria": "joyeria",
+    "precio": 450,
+    "precioTachado": 550,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/joyeria/aretes-oso-corazon-1.png",
+      "./images/productos/joyeria/aretes-oso-corazon-2.jpg",
+      "./images/productos/joyeria/aretes-oso-corazon-3.jpg",
+      "./images/productos/joyeria/aretes-oso-corazon-4.jpg",
+      "./images/productos/joyeria/aretes-oso-corazon-5.jpg"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [],
+    "instrucciones": "",
+    "detalles": {
+      "Material": "Plata de ley .925",
+      "Estuche": "Sí",
+      "Estilo": "Broquel"
+    },
+    "slug": "aretes-oso-corazon-verde",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": false
+  },
+  {
+    "id": "prod-019",
+    "nombre": "Aretes originales de tijeras brillantes",
+    "descripcion": "Para quienes buscan accesorios que rompan moldes. Este diseño original en forma de pequeñas tijeras abiertas está completamente tapizado por zirconias brillantes. Un accesorio súper creativo y fuera de lo común.",
+    "categoria": "joyeria",
+    "precio": 370,
+    "precioTachado": 450,
+    "stock": 100,
+    "imagenes": [
+      "./images/productos/joyeria/aretes-tijeras-1.png",
+      "./images/productos/joyeria/aretes-tijeras-2.jpg",
+      "./images/productos/joyeria/aretes-tijeras-3.jpg",
+      "./images/productos/joyeria/aretes-tijeras-4.jpg",
+      "./images/productos/joyeria/aretes-tijeras-5.jpg"
+    ],
+    "preciosPorPieza": [],
+    "beneficios": [],
+    "instrucciones": "",
+    "detalles": {
+      "Material": "Plata de ley .925",
+      "Estuche": "Sí",
+      "Estilo": "Broquel"
+    },
+    "slug": "aretes-tijeras-plata",
+    "ventaMayoreo": false,
+    "catalogoMayoreoURL": "",
+    "destacado": false
+  },
+
+  {
+    "id": "prod-020",
     "nombre": "Cerveza chelada importada (Mango y Chile) | Sabores Exóticos que NO verás en México",
     "descripcion": "Una verdadera explosión exótica que rompe las reglas de la michelada tradicional. Esta lata combina la calidad de Cerveza Modelo con el dulzor tropical del mango y el toque picante exacto del chile. Es un sabor de altísima demanda en Estados Unidos que simplemente no llega a las tiendas de conveniencia aquí. Paga por la exclusividad de destapar un sabor que todos envidiarán en tu próxima reunión.",
     "categoria": "Alcohol-importado",
@@ -465,7 +717,7 @@
     "destacado": true
   },
   {
-    "id": "prod-012",
+    "id": "prod-021",
     "nombre": "Cerveza chelada importada (Piña Picante) | Sabores Exóticos que NO verás en México",
     "descripcion": "Si creías que ya habías probado todas las combinaciones de cerveza, piénsalo dos veces. Esta edición especial mezcla el jugo refrescante de la piña con notas de chile picante. Un balance perfecto, audaz y vibrante reservado solo para el mercado de exportación. Siéntete VIP disfrutando de una chelada premium que es imposible encontrar en tu súper local.",
     "categoria": "Alcohol-importado",
@@ -509,7 +761,7 @@
     "destacado": true
   },
   {
-    "id": "prod-013",
+    "id": "prod-022",
     "nombre": "Cerveza chelada importada (Sandía Picante) | Sabores Exóticos que NO verás en México",
     "descripcion": "Refrescante, atrevida y sumamente codiciada. Esta lata fusiona el sabor jugoso de la sandía con un toque de chile para crear la chelada definitiva. Olvídate de preparar tus propias mezclas; aquí tienes calidad de exportación y un sabor exótico en un empaque premium. Una verdadera rareza de importación que vale cada peso por su inigualable frescura.",
     "categoria": "Alcohol-importado",
@@ -553,7 +805,7 @@
     "destacado": true
   },
   {
-    "id": "prod-014",
+    "id": "prod-023",
     "nombre": "Cerveza chelada importada (Limón y Sal) | Sabores Exóticos que NO verás en México",
     "descripcion": "Para los puristas que exigen lo mejor. No la confundas con cualquier chelada comercial; esta es la versión premium de exportación que conquista Estados Unidos. Disfruta del auténtico sabor a cerveza Modelo con el equilibrio perfecto de limón y sal, sin sabores artificiales invasivos. Es la experiencia clásica elevada a un nivel VIP que marca la diferencia en cada trago.",
     "categoria": "Alcohol-importado",
@@ -598,7 +850,7 @@
   },
 
   {
-    "id": "prod-015",
+    "id": "prod-024",
     "nombre": "Modelo Aguas Frescas con alcohol (Fresa) | Edición Exclusiva de Importación",
     "descripcion": "¿Buscas algo premium y diferente? Esta lata no la encontrarás en el supermercado de la esquina. Diseñada exclusivamente para el mercado de Estados Unidos, esta agua fresca con alcohol (\"spiked\") te ofrece el sabor dulce y natural de la fresa. Lo mejor de todo es su textura suave, ya que no contiene gas (no bubbles), dándote una experiencia súper ligera y refrescante. Un lujo de importación directo a tu paladar.",
     "categoria": "Alcohol-importado",
@@ -641,7 +893,7 @@
     "destacado": true
   },
   {
-    "id": "prod-016",
+    "id": "prod-025",
     "nombre": "Modelo Aguas Frescas con alcohol (Flor de Jamaica) | Edición Exclusiva de Importación",
     "descripcion": "Reinventamos el clásico mexicano en una versión VIP de exportación. Esta bebida captura el sabor auténtico y floral de la tradicional agua de jamaica, pero con el toque exacto de alcohol para relajar tu día. Al no tener gas (no bubbles), es increíblemente suave y fácil de tomar. Una rareza importada desde Estados Unidos que muy pocos tienen el privilegio de probar aquí.",
     "categoria": "Alcohol-importado",
@@ -684,7 +936,7 @@
     "destacado": true
   },
   {
-    "id": "prod-017",
+    "id": "prod-026",
     "nombre": "Modelo Aguas Frescas con alcohol (Pepino y Limón) | Edición Exclusiva de Importación",
     "descripcion": "La combinación más fresca que vas a probar, traída directamente del mercado estadounidense. Esta edición exclusiva fusiona la ligereza del pepino con el toque cítrico del limón, creando una bebida \"spiked\" sin gas (no bubbles) que no te inflama ni te empanzona. Es el upgrade perfecto a tus bebidas de fin de semana. Exclusividad y frescura en cada trago.",
     "categoria": "Alcohol-importado",
@@ -727,7 +979,7 @@
     "destacado": true
   },
   {
-    "id": "prod-018",
+    "id": "prod-027",
     "nombre": "Modelo Aguas Frescas con alcohol (Piña) | Edición Exclusiva de Importación",
     "descripcion": "Llévate el sabor del trópico con esta joya de importación. Olvídate de los hard seltzers desabridos; esta agua fresca con alcohol te da el dulzor vibrante y natural de la piña sin una sola burbuja de gas (no bubbles). Es un producto creado para exigentes en el extranjero y que ahora traemos a tus manos. Una experiencia suave, frutal y de alta gama.",
     "categoria": "Alcohol-importado",
@@ -771,7 +1023,7 @@
   }, 
 
   {
-    "id": "prod-019",
+    "id": "prod-028",
     "nombre": "1800 The Ultimate Margarita (Mango) | Edición importada 1.75L",
     "descripcion": "Eleva tus reuniones al nivel VIP con \"1800 The Ultimate Margarita\" sabor Mango. Olvídate de preparar cocteles complicados o comprar ingredientes por separado; esta botella monumental de 1.75 Litros viene lista para servir y disfrutar. Elaborada con el prestigioso Tequila 1800 premium, licor triple sec y extractos de sabor natural a mango. Es la opción definitiva para quienes buscan exclusividad, lujo y el sabor perfecto de una margarita profesional sin salir de casa. Solo agrega hielo y conviértete en el mejor anfitrión.",
     "categoria": "Alcohol-importado",
